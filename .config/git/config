@@ -1,0 +1,19 @@
+[push]
+	autoSetupRemote = true
+[pull]
+	rebase = true
+[help]
+	autocorrect = 1
+[alias]
+	plog = log --graph --format=format:'%C(auto)%h %C(bold blue)%an%C(auto)%d %C(green)%ad%C(reset)%n%w(80,8,8)%s' --date=human
+	rmd = !git remote prune origin && git branch -vv | grep \": gone]\" | grep -v \"+\" | awk '{print $1}' | xargs -r git branch -D
+	majonez = !git switch $(basename $(git rev-parse --abbrev-ref origin/HEAD)) && git pull --all && git rmd
+	who-fucked-with = !sh -c 'git shortlog HEAD..origin/$0'
+	whazzap-on = !sh -c 'git fetch' && git log --oneline HEAD..origin/$1
+	fucking-commits-diff-for = !sh -c 'git cherry -v $0'
+	wtf = status
+	sync-with-fucking = !sh -c 'git fetch && git rebase -i $0'
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true

@@ -1,0 +1,12 @@
+[wallpaper]
+enabled = true
+fill_mode = "crop"
+transition = ["fade"]
+transition_duration = 1500
+transition_on_startup = false
+
+[wallpaper.automation]
+enabled = false
+
+[backdrop]
+enabled = true

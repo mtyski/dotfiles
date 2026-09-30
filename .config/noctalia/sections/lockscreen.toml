@@ -1,0 +1,4 @@
+[lockscreen]
+lock_before_suspend = true
+transition = ["fade"]
+transition_duration = 300

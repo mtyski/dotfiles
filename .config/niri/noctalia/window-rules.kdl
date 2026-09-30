@@ -1,0 +1,21 @@
+// base window rule
+window-rule {
+  geometry-corner-radius 3
+
+  clip-to-geometry true
+}
+
+// GNOME stuff - "stolen" from DMS
+window-rule {
+  match app-id=r#"^org\.gnome\."#
+  draw-border-with-background false
+  clip-to-geometry true
+}
+
+// Floating Noctalia settings window.
+window-rule {
+  match app-id="dev.noctalia.Noctalia"
+  open-floating true
+  default-column-width { fixed 1080; }
+  default-window-height { fixed 920; }
+}
