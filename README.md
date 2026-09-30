@@ -23,3 +23,7 @@ alias dotfiles="$(which git) --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 dotfiles config --local status.showUntrackedFiles no
 dotfiles checkout
 ```
+
+## Adjusting config
+
+Use `dotfiles` alias for all operations. Git should track the edited files.
