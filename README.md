@@ -7,6 +7,7 @@ Personal dotfiles for Niri, Noctalia shell and other tooling.
 - [Niri](https://github.com/niri-wm/niri)
 - [Noctalia shell](https://github.com/noctalia-dev/noctalia)
 - [Git](https://git-scm.com/)
+- [Alacritty](https://alacritty.org/index.html)
 
 ## Optional packages
 
