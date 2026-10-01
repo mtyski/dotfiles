@@ -6,6 +6,7 @@ binds {
     Mod+Alt+Escape hotkey-overlay-title="Clear notifications" { spawn-sh "noctalia msg notification-clear-active && noctalia msg notification-clear-history"; }
     Mod+E hotkey-overlay-title="Open file manager (Nautilus)" { spawn "nautilus"; }
     Mod+Comma hotkey-overlay-title="Toggle Noctalia settings" { spawn-sh "noctalia msg settings-toggle"; }
+    Mod+V hotkey-overlay-title="Open Clipboard panel" { spawn-sh "noctalia msg panel-toggle clipboard"; }
 
     // Audio & Brightness
     XF86AudioRaiseVolume { spawn-sh "noctalia msg volume-up"; }
