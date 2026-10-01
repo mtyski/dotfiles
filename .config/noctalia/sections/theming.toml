@@ -15,7 +15,9 @@ builtin_ids = [
   "starship",
   "niri",
   "cava",
-  "foot"
+  "alacritty",
+  "gtk3",
+  "gtk4"
 ]
 community_ids = [
   "fzf",
