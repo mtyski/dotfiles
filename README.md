@@ -20,6 +20,7 @@ Personal dotfiles for Niri, Noctalia shell and other tooling.
 ```bash
 git clone --bare https://github.com/mtyski/dotfiles.git $HOME/.dotfiles
 alias dotfiles="$(which git) --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+touch ~/.config/niri/noctalia/{displays,binds}-specific.kdl
 dotfiles config --local status.showUntrackedFiles no
 dotfiles checkout
 ```
