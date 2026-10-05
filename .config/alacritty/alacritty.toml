@@ -1,0 +1,12 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/noctalia.toml"
+]
+
+[cursor]
+style = { 
+  blinking = "On"
+}
+
+[window]
+decorations = "None"
