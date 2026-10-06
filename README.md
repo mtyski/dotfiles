@@ -8,11 +8,11 @@ Personal dotfiles for Niri, Noctalia shell and other tooling.
 - [Noctalia shell](https://github.com/noctalia-dev/noctalia)
 - [Git](https://git-scm.com/)
 - [Alacritty](https://alacritty.org/index.html)
+- [fzf](https://github.com/junegunn/fzf)
 
 ## Optional packages
 
 - [Distrobox](https://distrobox.it/)
-- [fzf](https://github.com/junegunn/fzf)
 
 ## Cloning
 
