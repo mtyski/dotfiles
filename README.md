@@ -12,6 +12,7 @@ Personal dotfiles for Niri, Noctalia shell and other tooling.
 ## Optional packages
 
 - [Distrobox](https://distrobox.it/)
+- [fzf](https://github.com/junegunn/fzf)
 
 ## Cloning
 

@@ -4,3 +4,4 @@
 .config/niri/noctalia/*-specific.kdl
 # Auto-generated noctalia config
 .config/niri/noctalia.kdl
+.config/fzf/themes/noctalia.*

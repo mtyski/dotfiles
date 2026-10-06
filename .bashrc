@@ -62,6 +62,7 @@ eval "$(fnm env --use-on-cd --corepack-enabled --shell bash)"
 
 # fzf
 eval "$(fzf --bash)"
+[ -f "$HOME/.config/fzf/themes/noctalia.sh" ] && . "$HOME/.config/fzf/themes/noctalia.sh"
 
 # distrobox
 if [[ -n "$CONTAINER_ID" ]]; then
