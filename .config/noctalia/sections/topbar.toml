@@ -53,3 +53,6 @@ interactive = false
 
 [widget.settings]
 glyph = "settings"
+
+[widget.clock]
+format = "{:%F} {:%H:%M}"

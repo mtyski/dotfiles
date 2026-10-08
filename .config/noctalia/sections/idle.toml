@@ -1,0 +1,17 @@
+[idle]
+behavior_order = ["lock", "screen-off"]
+pre_action_fade_seconds = 5.0
+
+[idle.behavior.lock]
+timeout = 120
+action = "lock"
+enabled = true
+
+[idle.behavior.screen-off]
+timeout = 180
+action = "screen_off"
+enabled = true
+
+[idle.behavior.suspend]
+enabled = false
+action = "lock_and_suspend"
