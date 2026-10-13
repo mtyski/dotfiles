@@ -68,8 +68,6 @@ eval "$(fzf --bash)"
 if [[ -n "$CONTAINER_ID" ]]; then
   PATH="$PATH:$HOME/.dotnet/tools:$HOME/.rider/bin"
   alias silent-rider='rider . > /dev/null 2>&1 &'
-fi
-
-if [[ -z "$CONTAINER_ID" ]]; then
+else
   source <(noctalia completions bash)
 fi
