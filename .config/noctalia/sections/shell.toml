@@ -6,3 +6,27 @@ clipboard_history_max_entries = 100
 
 [shell.launcher]
 show_app_actions = true
+
+[shell.session]
+grid = false
+
+[[shell.session.actions]]
+action = "lock"
+shortcut = "1"
+enabled = true
+
+[[shell.session.actions]]
+action = "logout"
+shortcut = "2"
+enabled = true
+
+[[shell.session.actions]]
+action = "reboot"
+shortcut = "3"
+enabled = true
+
+[[shell.session.actions]]
+action = "shutdown"
+shortcut = "4"
+variant = "destructive"
+enabled = true
