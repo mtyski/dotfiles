@@ -11,3 +11,6 @@ blinking = "On"
 
 [window]
 decorations = "None"
+
+[font.normal]
+family = "HackNerdFont"
