@@ -58,11 +58,11 @@ fi
 # starship
 eval "$(starship init bash)"
 
-# autojump
-[ -f /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh ] && . /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh
-
 # fnm
 eval "$(fnm env --use-on-cd --corepack-enabled --shell bash)"
+
+# autojump
+[ -f /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh ] && . /home/linuxbrew/.linuxbrew/etc/profile.d/autojump.sh
 
 # fzf
 eval "$(fzf --bash)"
