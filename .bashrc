@@ -75,3 +75,8 @@ if [[ -n "$CONTAINER_ID" ]]; then
 else
   source <(noctalia completions bash)
 fi
+
+# aspire
+if type aspire &>/dev/null; then
+  ASPIRE_CLI_TELEMETRY_OPTOUT="true"
+fi
