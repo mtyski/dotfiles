@@ -36,7 +36,7 @@
 	fucking-sorry-yolo = !sh -c 'git commit --amend --no-edit $@ && git push -f'
 	wtf = status
 	last-fucking-commit = log --oneline -1
-	pick-a-fucking-lane = !$HOME/.local/bin/pick-a-lane.sh
+	pick-a-fucking-lane = !bash $HOME/.local/bin/pick-a-lane.sh
 [help]
 	autocorrect = prompt
 [push]
