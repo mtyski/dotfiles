@@ -17,11 +17,6 @@ HISTFILESIZE=2000
 
 shopt -s checkwinsize
 
-# aliases
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
 # completion
 if ! shopt -oq posix; then
   if [ -f /usr/share/bash-completion/bash_completion ]; then
@@ -30,6 +25,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# aliases
+[ -f ~/.bash_aliases ] && . ~/.bash_aliases
 
 # git
 export GPG_TTY=$(tty)
