@@ -63,8 +63,8 @@ eval "$(fzf --bash)"
 
 # distrobox
 if [[ -n "$CONTAINER_ID" ]]; then
-  PATH="$PATH:$HOME/.dotnet/tools:$HOME/.rider/bin"
-  alias silent-rider='rider . > /dev/null 2>&1 &'
+  PATH="$PATH:$HOME/.dotnet/tools:$HOME/.toolbox/bin"
+  alias silent-toolbox='jetbrains-toolbox . > /dev/null 2>&1 &'
 else
   source <(noctalia completions bash)
 fi
