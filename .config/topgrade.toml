@@ -28,7 +28,7 @@
 # sudo_command = "sudo"
 
 # Disable specific steps - same options as the command line flag
-disable = ["pnpm", "node", "yarn", "containers"]
+disable = ["pnpm", "node", "yarn", "containers", "jetbrains_toolbox", "jetbrains_rider"]
 
 # Run these steps before all others
 # first = ["chezmoi"]
