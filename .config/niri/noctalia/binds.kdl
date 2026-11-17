@@ -20,4 +20,7 @@ binds {
 
     // Lock screen
     Mod+Alt+L hotkey-overlay-title="Lock screen" { spawn-sh "noctalia msg session lock"; }
+
+    // Caffeine
+    Mod+Alt+C hotkey-overlay-title="Toggle caffeine mode" { spawn-sh "noctalia msg caffeine-toggle";  }
 }
